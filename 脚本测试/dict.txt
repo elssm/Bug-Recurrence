@@ -1,0 +1,11 @@
+root
+123456
+password
+111111
+abcdefg
+aaaaaa
+12345678
+123123
+qweasd
+654321
+admin

